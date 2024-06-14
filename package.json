@@ -1,0 +1,24 @@
+{
+  "name": "gearhub-moderation",
+  "version": "1.0.0",
+  "description": "Application Modération GearHub",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . GearHub_Moderation --icon=./gear.ico --overwrite"
+  },
+  "repository": "https://github.com/LapinDev/pierre_feuille_ciseaux",
+  "keywords": [
+    "Electron",
+    "GearHubModeration",
+    "Gear Hub Moderation"
+  ],
+  "author": "Lap",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^5.0.0"
+  },
+  "dependencies": {
+    "electron-packager": "^17.1.2"
+  }
+}
